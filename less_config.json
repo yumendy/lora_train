@@ -1,0 +1,15 @@
+{
+    "build_config": {
+        "build_command": "",
+        "build_output_dir": "./"
+    },
+    "router_config": {
+        "router_type": "CUSTOM",
+        "router_map": {
+            "/functions/run": "functions/run.js",
+            "/functions/file": "functions/run.js",
+            "/functions/upload": "functions/run.js"
+        }
+
+    }
+}
